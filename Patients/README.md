@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/7af033a0-267c-42b8-acad-f3c1921c7110)
+![image](https://github.com/user-attachments/assets/298dcf0c-9033-4c74-8d93-8d0418c64153)
+
 
 
 ## The file structure is organized as follows
