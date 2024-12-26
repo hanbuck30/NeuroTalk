@@ -19,7 +19,7 @@
 
 ## Training
 * **classname = ['call', 'camera', 'down', 'left', 'message', 'music', 'off', 'on', 'receive', 'right', 'turn', 'up', 'volume']**
-* 'ambulance' = 1, 'clock' = 2 , 'hello'=3 ...
+* 'call' = 1, 'camera' = 2 , 'down'=3 ...
 **To train the model for spoken EEG in the paper, run this command:(In subject, enter the initials of the subject)**
 ```train
 python train.py  --task SpokenEEG_vec --batch_size 30 --pretrain False --prefreeze False  --sub sub_number
