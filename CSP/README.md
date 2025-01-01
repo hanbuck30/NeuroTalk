@@ -46,10 +46,10 @@ Again, the proc_multicsp function remains unchanged.
 
 ## Notes:
 
-Ensure all necessary dependencies are in place.
+- Ensure all necessary dependencies are in place.
 
-Modify paths and variable names to suit your environment.
+- Modify paths and variable names to suit your environment.
 
-For further customizations, refer to the bbci_toolbox documentation.
+- For further customizations, refer to the bbci_toolbox documentation.
 
 
