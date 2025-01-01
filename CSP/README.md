@@ -1,11 +1,16 @@
 # CSP
- - proc_variance, proc_sliding_variance를 모두 bbci_public/processing/ 내부에 넣음
-   
-## Segment
-- vector_embedding 코드에서 proc_variance(fv_tr_EEG, n_sess);
-- proc_multicsp는 그대로 이용
-  
+This document outlines the steps to implement CSP using the bbci_toolbox framework. It includes guidelines on preprocessing raw data, handling errors, and performing operations like variance calculation and sliding window processing.
 
-## Sliding Window
-- vector_embedding 코드에서 proc_sliding_variance(fv_tr_EEG, window_len, n_sess, 0);
-- proc_multicsp는 그대로 이용
+## 1. File Adjustments
+### Move Functions
+- Ensure proc_variance and proc_sliding_variance are located within the bbci_public/processing/ directory.
+
+## 2. Check Raw Data's Columns
+- Concatenate the following columns in your raw data: "time", "Data", "Label".
+- Alternatively, modify the CSP code to fit your data structure.
+
+## 3. Handling Parport Errors
+- The bbci_toolbox requires some modifications for smooth execution. Ensure the code is adjusted, and files are placed in the correct path:
+  ```bash matlab
+  bbci_public/
+  ```
