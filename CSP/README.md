@@ -30,21 +30,21 @@ Save the processed data into a .mat file:
 ```bash
 save('C:\Users\user\OneDrive\바탕 화면\BXAI\matlab_code\result\CMJ\epoch_data.mat', 'fv_te_spoken', 'fv_te_imagined', 'fv_tr_imagined', 'fv_tr_spoken', 'fv_val_imagined', 'fv_val_spoken');
 ```
-## 5. Segmentation
+## Variance(Segmentation)
 In the vector_embedding code, use the following function for variance processing:
 ```bash
 proc_variance(fv_tr_EEG, n_sess);
 ```
 The proc_multicsp function remains unchanged.
 
-## 6. Sliding Window
-For sliding window processing, use the following function in vector_embedding:
+## Variance(Sliding Window)
+In the vector_embedding code, use the following function for sliding variance processing:
 ```bash
 proc_sliding_variance(fv_tr_EEG, window_len, n_sess, 0);
 ```
 Again, the proc_multicsp function remains unchanged.
 
-Notes:
+## Notes:
 
 Ensure all necessary dependencies are in place.
 
